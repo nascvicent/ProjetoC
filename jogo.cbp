@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jogo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/jogo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Users/eminh/Downloads/PDCurses-3.9/wincon/pdcurses.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/jogo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:/Users/eminh/Downloads/PDCurses-3.9/PDCurses-3.9" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/eminh/Downloads/PDCurses-3.9/wincon/pdcurses.a" />
+		</Linker>
+		<Unit filename="combate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="combate.h" />
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="lore.h" />
+		<Unit filename="loretoth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rank.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="rank.h" />
+		<Unit filename="splash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="splash.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,104 @@
+# depslib dependency file v1.0
+1703905258 source:c:\users\eminh\documents\jogo\main.c
+	<curses.h>
+	<string.h>
+	<stdlib.h>
+	<stdio.h>
+	"splash.h"
+	"lore.h"
+	"game.h"
+	"combate.h"
+
+1701443842 c:\users\eminh\downloads\pdcurses-3.9\pdcurses-3.9\curses.h
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<wchar.h>
+	<stdbool.h>
+
+1703810050 c:\users\eminh\documents\jogo\splash.h
+	<curses.h>
+
+1703811409 source:c:\users\eminh\documents\jogo\splash.c
+	"splash.h"
+	<stdlib.h>
+	<curses.h>
+
+1703812727 c:\users\eminh\documents\jogo\lore.h
+
+1703813698 source:c:\users\eminh\documents\jogo\loretoth.c
+	"lore.h"
+	<curses.h>
+	<unistd.h>
+
+1703903390 c:\users\eminh\documents\jogo\game.h
+	<curses.h>
+
+1703905741 source:c:\users\eminh\documents\jogo\game.c
+	"game.h"
+	<curses.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdbool.h>
+	"combate.h"
+	"rank.h"
+
+1703893133 c:\users\eminh\documents\jogo\status.h
+
+1703900633 source:c:\users\eminh\documents\jogo\combate.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1703900788 c:\users\eminh\documents\jogo\combate.h
+
+1703905700 source:c:\users\eminh\documents\jogo\rank.c
+	<stdio.h>
+	<stdlib.h>
+	"rank.h"
+
+1703905714 c:\users\eminh\documents\jogo\rank.h
+
+1703900633 source:c:\users\eminh\desktop\jogo\combate.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<unistd.h>
+
+1703905741 source:c:\users\eminh\desktop\jogo\game.c
+	"game.h"
+	<curses.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdbool.h>
+	"combate.h"
+	"rank.h"
+
+1703903390 c:\users\eminh\desktop\jogo\game.h
+	<curses.h>
+
+1703900788 c:\users\eminh\desktop\jogo\combate.h
+
+1703905714 c:\users\eminh\desktop\jogo\rank.h
+
+1703813698 source:c:\users\eminh\desktop\jogo\loretoth.c
+	"lore.h"
+	<curses.h>
+	<unistd.h>
+
+1703812727 c:\users\eminh\desktop\jogo\lore.h
+
+1703905793 source:c:\users\eminh\desktop\jogo\rank.c
+	<stdio.h>
+	<stdlib.h>
+	"rank.h"
+
+1703811409 source:c:\users\eminh\desktop\jogo\splash.c
+	"splash.h"
+	<stdlib.h>
+	<curses.h>
+
+1703810050 c:\users\eminh\desktop\jogo\splash.h
+	<curses.h>
+
